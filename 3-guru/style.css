@@ -2,26 +2,126 @@
 	clear: both;
 }
 
+html {
+	background-color: offwhite;
+}
+
+.mainDetails {
+	border-bottom: 2px solid #cf8a05;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
 }
 
+#headshot img {
+	border-radius: 100px;
+	width: 85%;
+	height: 85%;
+	margin-left: 50px;
+}
+
 #name {
 	float: left;
+	margin-left: 50px;
+	font-family: Rokkitt;
 }
+
+#name h1 {
+	font-size: 3em;
+	margin: -3px;
+}
+
+
+
+#name h2 {
+	margin-top: -3px;
+	font-weight: 500;
+	font-size: 30pt;
+}
+
+
+#cv {
+	margin: 0 50px 0 50px;
+	width: 80%;
+}
+
+
 
 #contactDetails {
 	float: right;
+	margin-right: 30px;
+	font-size: larger;
+	color: #181818;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+}
+
+#contactDetails a {
+	text-decoration: none;
+	color: #181818;
+}
+
+
+section {
+	margin-left: 40px;
+	margin-right: 30px;
+	padding: 20px;
+	border-bottom: 1px solid #dedede;
+}
+
+section:last-child {
+	border-bottom: none;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	margin-left: 10px;
+}
+
+.sectionTitle h1 {
+	color: #cf8a05;
+	font-style: italic;
+	font-family: Rokkitt;
+	font-size: 2em;
+	font-weight: 500;
+	
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
 }
+
+.sectionContent h2 {
+	margin-bottom: -3px;
+	font-family: Rokkitt;
+	font-weight: 500;
+	font-size: 2em;
+}
+
+.subDetails {
+	font-style: italic;
+	font-family: Arial;
+	margin-top: 0;
+}
+
+.sectionContent p {
+	font-family: Arial;
+	font-size: 15pt;
+	line-height: 1.5em;
+}
+
+.keySkills {
+	list-style-type: none;
+	column-count: 3;
+	font-family: Arial;
+	font-size: 15pt;
+	margin-left: -40px;
+}
+

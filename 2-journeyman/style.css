@@ -5,6 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	background-color: offwhite;
 }
 
 html, body {
@@ -25,10 +26,12 @@ p {
 	width: 90%;
 	max-width: 800px;
 	margin: 30px auto;
+	
 }
 
 .mainDetails {
 	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
 }
 
 #name h1 {
@@ -46,6 +49,10 @@ p {
 	padding: 0 40px;
 }
 
+#mainArea .sectionContent p {
+	font-family: Arial;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
@@ -60,6 +67,7 @@ p {
 
 #name {
 	float: left;
+	font-family: Rokkitt;
 }
 
 #contactDetails {
@@ -69,7 +77,7 @@ p {
 #contactDetails ul {
 	list-style-type: none;
 	font-size: 0.9em;
-	margin-top: 2px;
+	margin-top: 2px;	
 }
 
 #contactDetails ul li {
@@ -78,6 +86,7 @@ p {
 
 #contactDetails ul li a, a[href^=tel] {
 	text-decoration: none;
+	color: #181818;
 }
 
 #contactDetails ul li a:hover {
@@ -85,14 +94,20 @@ p {
 
 section {
 	padding: 20px 0 0;
+	border-bottom: 1px solid #dedede;
 }
 
+
+
 section:first-child {
-	border-top: 0;
+	border-top: 0;	
 }
+
+
 
 section:last-child {
 	padding: 20px 0 10px;
+	border-bottom: none;	
 }
 
 .sectionTitle {
@@ -108,17 +123,22 @@ section:last-child {
 .sectionTitle h1 {
 	font-style: italic;
 	font-size: 1.5em;
+	color:#cf8a05;
+	font-family: Rokkitt;
+
 }
 
 .sectionContent h2 {
 	font-size: 1.5em;
 	margin-bottom: -2px;
+	font-family: Rokkitt;
 }
 
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
+	font-family: Arial;
 }
 
 .keySkills {
@@ -126,6 +146,7 @@ section:last-child {
 	column-count: 3;
 	margin-bottom: 20px;
 	font-size: 1em;
+	font-family: Arial;
 }
 
 .keySkills ul li {

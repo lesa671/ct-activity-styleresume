@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: navy;
+    font-family: Arial;
+}
+
+#headshot {
+    margin: 0 550px;
+}
+
+#name {
+    text-align: center;
+}
+
+#contactDetails li {
+    list-style-type: none;
+    margin-left: 190px;
+    display: inline;
+    
+}
+
+.sectionTitle h1 {
+    font-size: 30px;
+}
